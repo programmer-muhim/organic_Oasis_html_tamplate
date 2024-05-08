@@ -1,0 +1,129 @@
+
+nav{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 3000;
+}
+
+.site_logo img {
+    width: 150px;
+    height: 70px;
+}
+
+.nav_link{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.nav_link ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.nav_link ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s all;
+}
+.nav_link ul .more{
+    position: relative;
+}
+
+.nav_link ul .more .moreTtem{
+    width: 120px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: none;
+    color: #fff;
+    top: 23px;
+    padding-left: 0.6rem;
+    padding-top: 0.4rem;
+}
+.nav_link ul .more .moreTtem .linkitem{
+    transition: 0.5s all;
+    font-weight: normal;
+}
+.nav_link ul .more .moreTtem .linkitem:hover{
+    color: #cee87c;
+}
+.nav_link ul .more .moreTtem #cart{
+    margin-left: 0px;
+    margin-top: 17px;
+    width: 100%;
+    height: 20%;
+    justify-content: flex-start;
+}
+.nav_link ul .more .moreTtem #check{
+    margin-left: 0px;
+    margin-top: 16px;
+}
+.nav_link ul .more .moreTtem .linkitem{
+  text-align: left;
+  left: 20px;
+  width: 100%;
+  height: auto;
+}
+.nav_link ul .more:hover .moreTtem{
+    display: block;
+}
+
+.nav_link ul li:hover{
+    color: #cee87c;
+}
+nav #cart, .site_logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #cart ion-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+nav #cart span{
+
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #cee87c;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 48%;
+    margin-top: -10px;
+    margin-left: -10px;
+    position: relative;
+    padding: 0.1rem;
+    z-index: 2;
+}
+
+#itemContainer{
+    width: 100%;
+    height: auto;
+}
+
+

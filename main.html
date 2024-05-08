@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robot" content="follow">
+    <link rel="shortcut icon" href="logo-leaf-new.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="HandF.css">
+    <link rel="stylesheet" href="query.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="myAccount.css">
+    <title>Organit Template</title>
+</head>
+<body onin>
+
+     <!-- heare module -->
+
+     <header id="head">
+        <nav>
+            <div class="site_logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="nav_link" id="nav_link">
+                <ul id="navUl">
+                    <li class="link navActive">home</li>
+                    <li class="link">all product</li>
+                    <li class="link">about</li>
+                    <li class="link">contact</li>
+                    <li class="link more">my account
+                       <div class="moreTtem">
+                        <h5 class="linkitem" id="account" onclick="Account();">my Account</h5>
+                        <h5 class="linkitem" id="check" onclick="checkPage();">check out</h5>
+                        <h5 class="linkitem" id="cart" onclick="cartPage();">cart</h5>
+                       </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="cart">
+                <ion-icon onclick="cartPage();" name="bag-outline"></ion-icon>
+                <span id="counter">0</span>
+            </div>
+
+            <div id="resMenue">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+
+            <div id="sideList">
+                <div>
+                    <ion-icon id="close" name="close-outline"></ion-icon>
+                </div>
+                <br><br>
+                <ul>
+                    <li onclick="homeMobile();">home</li>
+                    <li onclick="allProductMobile()">all product</li>
+                    <li onclick="aboutMobile();">about</li>
+                    <li onclick="contactMobail();">contact</li>
+                    <li class="more" onclick="myAccountMobile();">my account
+                        <li onclick="checkMobile();">check out</li>
+                        <li onclick="cartMobile();">cart</li>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+     </header>
+
+     <div id="itemContainer">
+     </div>
+
+     <audio src="0501 (1).MP3" id="sound"></audio>
+     <audio src="0501 (2).MP3" id="sound2"></audio>
+     <footer>
+        <div class="foterItem">
+            <div class="box">
+                <h4>download our app</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nihil sapiente dicta. Quasi commodi magnam, molestiae quidem dolor modi ut quas sed aliquid facere exercitationem</p>
+                <div class="img">
+                    <div class="sore">
+                        <img src="play-store-1.png">
+                    </div>
+                    <div class="sore">
+                        <img src="app-store-1.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="organic-store-white-logo.png">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nihil sapiente dicta. Quasi commodi magnam, molestiae quidem dolor modi ut quas sed aliquid facere exercitationem</p>
+            </div>
+            <div class="box">
+                <h4>quick links</h4>
+                <ul>
+                    <li>know more about us</li>
+                    <li>visit store</li>
+                    <li>lats connect</li>
+                    <li>locate sores</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4>site links</h4>
+                <ul>
+                    <li>privacy policy</li>
+                    <li>shoping ditails</li>
+                    <li>offers coupons</li>
+                    <li>treams & condition</li>
+                </ul>
+            </div>
+        </div>
+
+        <br><br><br>
+        
+        <div id="copyright">
+            <h4 id="chead">© 2024 <span class="short">C.F.</span><span class="full">codesr foundation</span> || All rights reserved.</h4>
+            <div class="social">
+                <ul>
+                    <li><ion-icon name="logo-twitter"></ion-icon></li>
+                    <li><ion-icon name="logo-instagram"></ion-icon></li>
+                    <li><ion-icon name="logo-whatsapp"></ion-icon></li>
+                    <li><ion-icon name="logo-vk"></ion-icon></li>
+                </ul>
+            </div>
+        </div>
+     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

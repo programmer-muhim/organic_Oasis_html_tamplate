@@ -1,0 +1,50 @@
+#myAccount{
+    margin: 6rem 0rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 1rem;
+}
+
+#myAccount .accountBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#myAccount .accountBox:first-child{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+#myAccount .accountBox:last-child form{
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+#myAccount .accountBox:last-child form input{
+    width: 95%;
+    height: 40px;
+    padding: 0rem 0.5rem;
+    border-radius: 0;
+    border: 0.5px solid;
+}
+
+#myAccount .accountBox:last-child form button{
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 1.4rem;
+    background-color: lime;
+}

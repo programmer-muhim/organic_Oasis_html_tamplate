@@ -1,0 +1,719 @@
+
+
+@media (max-width: 1024px) {
+
+   /* service section */
+   #service .item .icon{
+    width: 25%;
+    height: 20%;
+    }
+
+    /* fresh section */
+    #fresh{
+        padding: 3rem 0rem;
+    }
+    #fresh .con:last-child{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+
+    #fresh .con:last-child .spacher{
+        width: 100%;
+        height: 30vh;
+    }
+
+    /* About Page */
+
+    #about #aRemain{
+        display: none;
+    }
+
+    /* slide sction */
+    #stestiSliderCon{
+        height: 15vh !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* home section */
+    #home .box:first-child{
+        padding: 1rem;
+    }
+    #home .box:first-child img{
+        width: 100%;
+    }
+    #home .box:last-child{
+        padding: 1rem;
+    }#home .box:last-child h3{
+        margin: 0.4rem 0rem;
+    }
+    #home .box:last-child h2{
+        margin: 0.4rem 0rem;
+        font-size: 25px;
+    }
+    #home .box:last-child p{
+        margin: 0.4rem 0rem;
+        font-size: 15px;
+    }
+    #home .box:last-child button{
+        padding: 0.4rem 1.5rem;
+    }
+    
+    #home .box:last-child button ion-icon{
+        margin: 0rem 0.5rem;
+        font-size: 22px;
+    }
+    #home .box:last-child button span{
+        top: -4px;
+        font-size: 18px;
+    }
+    #home .box:last-child button ion-icon{
+        margin: 0rem 0.6rem;
+    }
+
+    /* service section */
+
+    #service .serviceItem{
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        padding: 2rem 0rem;
+    }
+    #service .item .icon{
+        width: 30%;
+        height: 70%;
+    }
+    #service .item:nth-child(3), .item:last-child{
+        margin-left: 0.2rem;
+    }
+
+    /* best section */
+
+    #bestsell .box:nth-child(2){
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #bestsell{
+        padding: 2rem 1.3rem;
+    }
+    #bestsell .pageination .ination{
+
+        width: 20%;
+    }
+
+    /* fresh section */
+    
+    #fresh .con:last-child{
+        row-gap: 2rem;
+    }
+
+    #fresh .con:last-child .spacher{
+        width: 100%;
+        height: 20vh;
+    }
+
+    #fresh .con:last-child .card p{
+        line-height: 1.1;
+    }
+    #fresh .con:last-child .card button{
+        font-size: 15px;
+    }
+
+    /* companey */
+
+    #company{
+        grid-template-columns: repeat(4,1fr);
+        row-gap: 2rem;
+     }
+
+
+    /* About Page */
+
+    #about .box:last-child .cont p{
+        font-size: small;
+    }
+    
+    #about #mARemain{
+        display: none;
+    }
+
+    #s_about{
+        flex-direction: column;
+        row-gap: 3rem !important;
+    } 
+
+    #s_about .s_con{
+        width: 80% !important;
+        height: auto;
+        background-color: #f5f3f3;
+        border-radius: 5px;
+    }
+    #s_about .s_con:first-child{
+        padding: 2rem 0rem;   
+    }
+    #s_about .s_con:last-child{
+        padding: 2rem;
+    }
+
+    #stestiSliderCon{
+        height: 24.5vh !important;
+    }
+
+    /* contact section */
+    #contact #contact_con:nth-child(2){
+        column-gap: 1rem;
+    }
+    #contact #contact_con .box:first-child h2{
+        font-size: 27px;
+    }
+    #contact #contact_con .box:first-child p{
+        font-size: 18px;
+    }
+
+    /* cart section */
+
+    #cartPage table tr td button{
+        padding: 0.5rem 0.7rem !important;
+    }
+    #cartPage table tr .button{
+        width: 110px !important;
+        padding: 0.4rem;
+    }
+
+    #cartPage table tr td .closepd{
+        font-size: 20px !important;
+        font-weight: normal;
+        color: red;
+    }
+}
+
+@media (max-width: 426px) {
+    
+    /* home section */
+    #home{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #home .box{
+        width: 100%;
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+
+    #home .box:first-child img{
+        width: 100%;
+    }
+    #home .box:last-child .img_small{
+        margin-left: 40%;
+        margin-bottom: 1rem;
+    }
+    #home .box:last-child h3{
+        margin: 0.7rem 0rem;
+    }
+    #home .box:last-child h2{
+        margin: 0.7rem 0rem;
+        font-size: 33px;
+    }
+    #home .box:last-child p{
+        margin: 0.7rem 0rem;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    #home .box:last-child button{
+        padding: 0.4rem 1.5rem;
+    }
+    
+    #home .box:last-child button ion-icon{
+        margin: 0rem 0.5rem;
+        font-size: 22px;
+    }
+    #home .box:last-child button span{
+        top: -4px;
+        font-size: 18px;
+    }
+    #home .box:last-child button ion-icon{
+        margin: 0rem 0.6rem;
+    }
+    #home .box:last-child #fade_img{
+        display: none;
+    }
+
+    /* service section */
+
+    #service{
+        padding: 3rem 0rem;
+    }
+    #service .serviceItem{
+        height: 50%;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }#service .item{
+        flex-direction: column;
+        row-gap: 0.6rem;
+    }
+    #service .item .icon{
+        width: 45%;
+        height: 100%;
+    }
+    #service .item:nth-child(3), .item:last-child{
+        margin-left: 0.2rem;
+    }
+
+    #service .item:nth-child(3), .item:last-child{
+        margin-left: 0rem;
+    }
+    #service .item .icon ion-icon{
+        padding: 0.5rem 0rem;
+    }
+    #service .item .text, .sheading, .sp{
+        text-align: center;
+    }
+
+    /* best section */
+
+    #bestsell .box:nth-child(2){
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1.3rem;
+    }
+    #bestsell{
+        padding: 2rem 1rem;
+    }
+    #bestsell .pageination .ination{
+        width: 40%;
+    } 
+
+     /* fresh section */
+    
+     #fresh .con:last-child{
+        row-gap: 2rem;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #fresh .con:last-child .spacher{
+        width: 100%;
+        height: 33vh;
+    }
+
+    #fresh .con:last-child .card p{
+        line-height: 1.1;
+    }
+    #fresh .con:last-child .card button{
+        font-size: 15px;
+    }
+
+    /* discount section */
+
+    #discunt{
+        height: 45vh;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 2rem;
+        padding: 1.5rem 0rem;
+    }
+
+    #discunt .btn button{
+        padding: 0.5rem 1.5rem;
+        font-size: 16px;
+    }
+
+    /* slide section */
+
+    #mainSlide #slideCon #slide:first-child, #slide:last-child{
+        width: 14%;
+    }
+    #mainSlide #slideCon #slideCard{
+        width: 72%;
+    }
+    .testCard {
+        width: 100%;
+    }
+    .remain_1{
+        display: none !important;
+    }
+    .testCard .top .img img{
+        width: 80%;
+        height: 80%;
+    }
+    .testCard .top .ditals{
+        font-size: 12px;
+    }
+    .testCard .bottom{
+        padding-top: 0.4rem;
+    }
+    .testCard .bottom p{
+        font-size: 13px !important;
+    }
+
+    /* companey */
+
+    #company{
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 2rem;
+    padding-left: 10%;
+    }
+
+    #company img{
+    width: 90%;
+    }
+
+    /* About Page */
+
+    #about .box:last-child{
+        flex-direction: column !important; 
+        row-gap: 1.5rem;
+    }
+    #about .box:last-child .cont{
+        width: 100% !important;
+    }
+    #about .box:last-child .cont p{
+        font-size: small;
+    }
+    
+    #about #mARemain{
+        display: none;
+    }
+
+        
+    /* population */
+
+    #population{
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 2rem;
+    }
+
+    #population .item #counter, .ountnName{
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    /*  About section  */ 
+    
+    #s_about .s_con{
+        width: 100% !important;
+        height: auto;
+        background-color: #f5f3f3;
+        border-radius: 5px;
+    }
+
+    #s_about .s_con:last-child{
+        padding: 2rem;
+    }
+
+    #stestiSliderCon{
+        height: 30vh !important;
+    }
+
+    .s_con:last-child .box .s_img_box, .s_con:last-child .ul{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .s_con:last-child .ul li{
+        text-align: left;
+    }
+    .s_con:last-child{
+        text-align: center !important;
+    }
+    .s_con:last-child .h2 h2{
+        font-size: 25px !important;
+        text-transform: capitalize;
+    }
+    .s_con:last-child .ul{
+        width: 80%;
+    }
+
+    .s_con:last-child .ul ul li{
+        list-style-type: none;
+        padding: 0.2rem 0rem;
+        font-size: 18px;
+    }
+    .s_con:last-child .ul ul li ion-icon{
+        color: lime;
+    }
+
+    .s_con:last-child .box .s_img_box img{
+        width: 50% !important;
+        height: 50% !important;
+    }.s_con:last-child .box .s_img_box .text{
+        align-items: center !important;
+    }
+    .s_con:last-child .box .s_img_box .text h3{
+        font-size: 25px;
+    }
+    .s_con:last-child .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        
+    #s_about .s_con:first-child .slider #left, #right{
+        width: 10% !important;
+    }
+
+    #s_about .s_con:first-child .slider .img{
+        width: 80% !important;
+        height: 300px;
+    }
+    #slideleft, #slideright{
+        font-size: 17px !important;
+    }
+    #stestiSliderLeft, #stestiSliderRight{
+        width: 10% !important;
+    }
+    #stestiSliderCon{
+        width: 80% !important;
+    }
+    #stestiSliderLeft span, #stestiSliderRight span {
+        font-size: 17px !important;
+    }
+
+    /* contact section */
+    #contact #contact_con:nth-child(2){
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    #contact #contact_con:nth-child(2) .box{
+        width: 100%;
+    }
+    #contact #contact_con .box:first-child h2{
+        font-size: 27px;
+    }
+    #contact #contact_con .box:first-child p{
+        font-size: 20px !important;
+    }
+
+    #contact #contact_con .box:last-child form input, textarea{
+        width: 100% !important;
+    }
+
+    #faq .toggle #tHeader h4{
+        font-size: 14.5px !important;
+    }
+
+    /* Check out */
+    
+    #checkOut #form:nth-child(2) #couponForm input:first-child, input:last-child{
+        width: 40% !important;
+    }
+
+    #checkOut .allForm{
+        flex-direction: column;
+        row-gap: 2rem !important;
+    }
+    .allForm .from_box{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .allForm .from_box:first-child form input, select{
+        width: 95% !important;
+    }
+    .allForm .from_box:last-child{
+        padding: 0.9rem 0.7rem !important;
+    }
+
+    .allForm .from_box:last-child .formHeader h3{
+        padding: 0.6rem 0.1rem !important;
+    }
+    #checkOut .order table{
+        padding: 0.5rem !important;
+    }
+
+    /* cart section */
+
+    #cartPage table tr td button{
+        padding: 0.5rem 0.7rem !important;
+        width: 100px !important;
+    }
+
+    #cartPage table tr td img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+    #cartPage table tr input{
+        width: 100% !important;
+        padding: 0.6rem 0.6rem;
+    }
+    #cartPage table tr th{
+        font-weight: 500;
+        font-size: 14px !important;
+    }
+    #cartPage table tr td{
+        font-size: 14px !important;
+    }
+    #cartPage #chechOutProcess .block{
+        width: 100% !important;
+    }
+    #cartPage #table{
+        overflow-x: scroll !important;
+    }
+
+    /* my Account Page section */
+
+    #myAccount .accountBox:last-child{
+        width: 100% !important;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    #myAccount .accountBox:last-child form{
+        width: 100% !important;
+    }
+    
+}
+
+@media (max-width: 376px) {
+    
+     /* fresh section */
+
+     #fresh .con:last-child{
+        row-gap: 1rem;
+    }
+
+    #fresh .con:last-child .spacher{
+        width: 100%;
+        height: 15.5vh;
+    }
+    #fresh .con:last-child .card #freshTitle{
+        font-size: 16px;
+    }
+    #fresh .con:last-child .card p{
+        line-height: 1.1;
+        font-size: 15px;
+    }
+    #fresh .con:last-child .card button{
+        font-size: 15px;
+    }
+
+    #discunt #disHading{
+        font-size: 20px;
+    }
+
+    /* Customer Slide section */
+    
+    #mainSlide #slideCon #slide:first-child, #slide:last-child{
+        width: 10%;
+    }
+    #mainSlide #slideCon #slide:first-child #sleft:hover{
+        margin-left: -7px;
+        transform: scale(1.1);
+    }
+    #mainSlide #slideCon #slide:last-child #sright:hover{
+        margin-right: -7px;
+        transform: scale(1.1);
+    }
+    #mainSlide #slideCon #slideCard{
+        width: 80%;
+    }
+    .testCard {
+        width: 100%;
+    }
+
+    /* company section */
+
+    #company{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 4rem;
+        padding-left: 25%;
+     }
+
+     #company img{
+        width: 75%;
+     }
+
+    /* About Page */
+
+    #about .box:last-child .cont p{
+        font-size: 15px;
+    }
+    
+     #about .box:last-child .cont h3{
+        font-size: 19.3px !important;
+    }
+
+            
+    /* population */
+    #population{
+        grid-template-columns: repeat(1, 1fr) !important;
+        row-gap: 2rem;
+    }
+
+    #population .thanks{
+        justify-content: center !important;
+    }
+
+    /* contact */
+    #faq .toggle #tHeader h4{
+        font-size: 12.4px !important;
+    }
+}
+
+@media (max-width: 320px) {
+
+    #bestsell .box:nth-child(2){
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.3rem;
+    }
+    #bestsell .box:nth-child(2) .item .productDitails{
+        text-align: center;
+        margin-top: 0.6rem;
+    }
+
+    #bestsell .box:nth-child(2) .productDitails button{
+        padding: 0.7rem 2rem;
+        margin-top: 0.5rem;
+        font-size: 18px;
+    }
+
+     /* fresh section */
+    
+     #fresh .con:last-child{
+        row-gap: 1rem;
+    }
+
+    #fresh .con:last-child .spacher{
+        width: 100%;
+        height: 7.5vh;
+    }
+    #fresh .con:last-child .card #freshTitle{
+        font-size: 16px;
+    }
+    #fresh .con:last-child .card p{
+        line-height: 1.1;
+        font-size: 12px;
+    }
+    #fresh .con:last-child .card button{
+        font-size: 12px;
+        padding: 0.4rem 1.4rem;
+    }
+
+    /* discount section */
+
+    #discunt #disHading{
+        font-size: 18px;
+    }
+    
+    /* Customer Slide section */
+
+    .testCard .bottom p{
+        font-size: 12.3px !important;
+    }
+
+    /* population */
+    
+    #population .thanks{
+        text-align: center !important;
+    }
+
+    /* about section */
+
+    #stestiSliderCon{
+        font-size: 16px !important;
+        height: 35vh !important;
+    }
+
+     /* contact */
+     #faq .toggle #tHeader h4{
+        font-size: 10px !important;
+    }
+
+}
+

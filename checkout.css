@@ -1,0 +1,158 @@
+#checkOut{
+    margin-top: 6rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    row-gap: 2rem;
+}
+
+#checkOut #form{
+    width: 100%;
+    height: auto;
+}
+#checkOut #form:first-child{
+    text-align: center;
+    line-height: 3;
+}
+#checkOut #form:nth-child(2){
+    padding: 1rem 1.4rem;
+}
+#checkOut #form:nth-child(2) #couponClick{
+    color: lime;
+    cursor: pointer;
+}
+#checkOut #form:nth-child(2) #couponForm{
+    width: 100%;
+    margin-top: 1rem;
+    visibility: hidden;
+}
+#checkOut #form:nth-child(2) #couponForm input:first-child{
+    width: 25%;
+    height: 30px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 6px;
+    border: 0.5px solid;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#checkOut #form:nth-child(2) #couponForm input:last-child{
+    width: 10%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    background-color: #22ff00;
+    color: #fff;
+}
+#checkOut .allForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.allForm .from_box{
+    width: 50%;
+    height: 60vh;
+}
+
+.allForm .from_box:first-child form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.allForm .from_box:first-child .formHeader{
+    width: 100%;
+    height: auto;
+}
+.allForm .from_box:first-child .formHeader h3{
+    padding: 1rem 1.1rem;
+}
+.allForm .from_box:last-child .formHeader{
+    width: 100%;
+    height: auto;
+}
+.allForm .from_box:last-child .formHeader h3{
+    padding: 0.6rem 1.1rem;
+}
+
+.allForm .from_box:first-child form input, select{
+    width: 95%;
+    height: 40px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0;
+    border: 0.5px solid;
+}
+
+.allForm .from_box:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0.9rem 1rem;
+}
+
+.allForm .from_box:last-child form{
+    width: 100%;
+
+}.allForm .from_box:last-child #note:focus{
+    outline: none;
+}
+.allForm .from_box:last-child #note{
+    width: 100%;
+    height: 30vh;
+    border: 0.5px solid;
+}
+#checkOut .order .order_title{
+    width: 100%;
+    padding-left: 1.1rem;
+}
+#checkOut .order table{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+#checkOut .order table th{
+    text-align: left;
+}
+#checkOut .order table tr{
+    width: 100%;
+    height: 40px;
+}
+#checkOut .order table th, tr td{
+    padding: 0rem 1rem;
+    border: 0.5px solid;
+}
+#checkOut .order table tr:nth-child(even){
+    background-color: #92e092;
+}
+#checkOut .order table tr:nth-child(odd){
+    background-color: #f3ecec;
+}
+
+#checkOut .payment{
+    padding: 1rem;
+    line-height: 2;
+}
+
+#checkOut .payment #orderbutton{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+#checkOut .payment #orderbutton button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #22ff00;
+    color: #fff;
+}
